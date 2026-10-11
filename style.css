@@ -31,3 +31,15 @@
 .forest.awaiting-view .falling-cone{animation-play-state:paused}
 .wordmark .brand-logo{display:block;width:240px;height:96px;object-fit:contain;margin:0}.wordmark:has(.brand-logo){margin-left:-32px;gap:0}
 @media(max-width:560px){.wordmark .brand-logo{width:180px;height:72px}.wordmark:has(.brand-logo){margin-left:-25px;margin-right:-15px}}
+
+/* Keep the studio character close to the Kapy Labs name without turning the
+   About section into another hero illustration. */
+.about-studio-heading{display:flex;align-items:center;gap:22px}
+.about-studio-logo{width:92px;height:92px;object-fit:contain;flex:0 0 auto;filter:drop-shadow(0 10px 20px #0005)}
+.about-studio-heading .eyebrow{margin-bottom:12px}
+@media(max-width:800px){.about-studio-heading{gap:16px}.about-studio-logo{width:78px;height:78px}}
+@media(max-width:560px){.about-studio-heading{gap:15px}.about-studio-logo{width:72px;height:72px}.about-studio-heading .eyebrow{margin-bottom:9px}}
+
+/* Use the actual Kapy character as the compact studio mark in both headers. */
+.wordmark .studio-mark{display:block;width:38px;height:38px;object-fit:contain;margin-right:3px;filter:drop-shadow(0 4px 10px #0004)}
+@media(max-width:560px){.wordmark .studio-mark{width:32px;height:32px;margin-right:2px}}
