@@ -42,4 +42,4 @@
 
 /* Use the actual Kapy character as the compact studio mark in both headers. */
 .wordmark .studio-mark{display:block;width:38px;height:38px;object-fit:contain;margin-right:3px;filter:drop-shadow(0 4px 10px #0004)}
-@media(max-width:560px){.wordmark .studio-mark{width:32px;height:32px;margin-right:2px}}
+@media(max-width:560px){.wordmark .studio-mark{width:46px;height:46px;margin-right:2px}}

@@ -55,15 +55,33 @@
       <details class="expiry-details"><summary>What happens if Monthly expires?</summary><p>Your existing books remain readable, even if your library contains more than five books. All Free reading features stay available. Premium features become unavailable, and new imports resume when your library has fewer than five books or you reactivate Premium.</p></details>
       <p class="premium-note">RIVI is still in development. This comparison reflects the current app; final availability and store offers will be confirmed at release.</p>
     </section>
-    <section class="privacy-section wrap" id="privacy" aria-labelledby="privacy-title"><div class="privacy-heading"><p class="eyebrow">RIVI · PRIVACY</p><h2 id="privacy-title">Privacy policy</h2><p>Privacy policy · Draft for the current development version<br>Last updated: 11 October 2026</p></div><div class="privacy-copy">
+    <section class="privacy-section wrap" id="privacy" aria-labelledby="privacy-title"><div class="privacy-heading"><p class="eyebrow">RIVI · PRIVACY</p><h2 id="privacy-title">Privacy policy</h2><p>Last updated 11 October 2026</p></div><div class="privacy-copy">
       <p>This policy describes how RIVI, made by Kapy Labs, handles information. RIVI stores your reading library locally. Optional online features involve the services described below.</p>
-      <h3>Books and reading data</h3><p>Imported book files, extracted resources, library metadata, reading positions, bookmarks, categories, preferences, custom themes and reading statistics are stored on your device. RIVI does not upload your library or reading history to a Kapy Labs server, and does not require a RIVI account.</p>
-      <h3>Optional online features</h3><p>When you search or download books through Project Gutenberg, the app sends your search query and requests for book details, covers or files to Project Gutenberg. That service receives connection information such as your IP address. Its <a href="https://www.gutenberg.org/policy/privacy_policy.html">privacy policy</a> explains how it handles those requests.</p>
-      <h3>Purchases and Premium</h3><p>In store builds configured for purchases, RIVI uses RevenueCat and the platform app store to check Premium access, process purchases and restore purchases. RevenueCat uses an app user identifier and purchase information for entitlement management and purchase reporting. Payment details are handled by the app store, rather than entered into RIVI. See <a href="https://www.revenuecat.com/privacy/">RevenueCat’s privacy policy</a> and your app store’s privacy information.</p>
-      <h3>Analytics and advertising</h3><p>RIVI has no advertising or separate reading-behaviour analytics SDK. Your reading statistics stay on your device. RevenueCat’s purchase reporting is separate from those local reading statistics.</p>
-      <h3>Files, backups and device controls</h3><p>RIVI accesses files or folders you select through the system picker. Exported backups are saved to the destination you choose; that destination may have its own privacy practices. Optional shake controls use device motion to control playback. RIVI does not send that motion data to Kapy Labs.</p>
-      <h3>Keeping and removing information</h3><p>Local information remains until you remove it, clear the app’s data or uninstall the app. Removing a book from RIVI removes its imported copy, reading position, bookmarks and category assignment; it does not delete your original source file. Exported backups and any device-system backups are managed separately. Uninstalling RIVI does not cancel an app-store subscription or delete purchase records held by the store or RevenueCat.</p>
-      <h3>Contact and updates</h3><p>Kapy Labs is responsible for RIVI’s app-specific data handling. Privacy contact: <a href="mailto:privacy@kapylabs.fi">privacy@kapylabs.fi</a>. If you contact us, we receive the information you choose to send. This policy will be updated as the app develops; the date above identifies the current draft.</p>
+      <h3>Books and reading data</h3>
+      <p>Imported book files, extracted resources, library metadata, reading positions, bookmarks, categories, preferences, custom themes, reading statistics, recent free-book searches and dictionary results are stored on your device. A folder location may also be saved when you choose a folder for scanning.</p>
+      <p>RIVI does not upload your library or reading history to a Kapy Labs server, and does not require a RIVI account.</p>
+      <h3>Optional online features</h3>
+      <p>When you search the free-book catalog, RIVI sends the search query and requests for book metadata to Gutendex and may request additional metadata from Open Library. Book details, covers and book files may be requested from Project Gutenberg. These services receive normal connection information such as your IP address.</p>
+      <p>When you look up a word, RIVI sends that word and the selected dictionary language to Free Dictionary API and English Wiktionary. If they do not return a result, RIVI may use Datamuse as a fallback. Results are cached locally so the same definition can be opened again without a new request.</p>
+      <p><a href="https://www.gutenberg.org/policy/privacy_policy.html">Project Gutenberg privacy policy</a></p>
+      <h3>Purchases and Premium</h3>
+      <p>In store builds configured for purchases, RIVI uses RevenueCat and the platform app store to check Premium access, process purchases and restore purchases. RevenueCat uses an app user identifier and purchase information for entitlement management and purchase reporting. Payment details are handled by the app store rather than entered into RIVI.</p>
+      <p><a href="https://www.revenuecat.com/privacy/">RevenueCat privacy policy</a></p>
+      <h3>Analytics and advertising</h3>
+      <p>RIVI has no advertising or separate reading-behaviour analytics SDK. Your reading statistics stay on your device. RevenueCat’s purchase reporting is separate from those local reading statistics.</p>
+      <h3>Files, backups and device controls</h3>
+      <p>RIVI does not currently ask for access to your camera, microphone, location, contacts or photo library. Files and folders become available to RIVI only when you choose them through the system picker.</p>
+      <p>Imported copies are kept in the app’s private storage. Exported backups are saved to the destination you choose; that destination may have its own privacy practices.</p>
+      <p>When optional shake controls are enabled, RIVI reads accelerometer data while the reader is open and the app is active. This data is processed on your device to control reading playback; it is not stored or sent to Kapy Labs.</p>
+      <h3>Security</h3>
+      <p>RIVI keeps imported books and its database in app-private storage and uses encrypted HTTPS connections for the online features described above. No storage or transmission method can be guaranteed completely secure.</p>
+      <h3>Keeping and removing information</h3>
+      <p>Local information remains until you remove it, erase RIVI’s data or uninstall the app. Removing a book from RIVI removes its imported copy and related library data; it does not delete your original source file.</p>
+      <p>Exported backups and device-system backups are managed separately. Uninstalling RIVI does not cancel an app-store subscription or delete purchase records held by the store or RevenueCat.</p>
+      <h3>Contact and updates</h3>
+      <p>Kapy Labs is responsible for RIVI’s app-specific data handling. If you contact us, we receive the information you choose to send.</p>
+      <p>This policy may be updated as RIVI develops. The date at the top identifies the current version.</p>
+      <p><a href="mailto:privacy@kapylabs.fi">privacy@kapylabs.fi</a></p>
     </div></section>
   </main>
   <footer class="wrap"><a href="../../">© 2026 Kapy Labs</a><div><a href="mailto:support@kapylabs.fi">RIVI support</a><a href="#privacy">RIVI privacy</a></div></footer>
