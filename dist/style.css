@@ -81,3 +81,9 @@
   .orbit-one{width:230px;height:158px}.orbit-two{width:186px;height:230px}
   .not-found-page footer{flex-wrap:wrap;padding-bottom:28px}
 }
+
+/* Real RIVI Line Lock preview */
+.rivi-stage{contain:inline-size;height:auto;min-width:0;max-width:100%;aspect-ratio:1080/730;padding:7px;border-color:#4a4e40;border-radius:10px;background:#252a24}
+.rivi-card-video{display:block;inline-size:100%;max-inline-size:100%;min-inline-size:0;height:100%;max-height:100%;object-fit:contain;border-radius:5px;background:#e8dec9}
+.rivi-stage .preview-caption{right:13px;bottom:12px;padding:4px 7px;border:1px solid #ffffff1a;border-radius:999px;background:#101713d9;color:#c6cfc4;line-height:1}
+@media(max-width:560px){.rivi-stage{width:100%;min-width:0;max-width:100%;height:auto;aspect-ratio:1080/730;padding:6px}.rivi-card-video{inline-size:100%;max-inline-size:100%;min-inline-size:0;height:100%}}
