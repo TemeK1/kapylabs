@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="160" viewBox="0 0 540 160"><g transform="translate(12 16) scale(2)">
+  <g stroke="#e5e8de" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 56V9M32 24 22 14m10 10 10-10M32 35 16 21m16 14 16-14M32 47 11 30m21 17 21-17"/>
+    <path d="M22 14v8m20-8v8M16 21v10m32-10v10M11 30v11m42-11v11"/>
+  </g>
+
+</g><text x="172" y="103" fill="#e5e8de" font-family="Arial, Helvetica, sans-serif" font-size="68" letter-spacing="-2">Havu <tspan font-weight="400">Apps</tspan></text></svg>
