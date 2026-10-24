@@ -25,3 +25,6 @@
 /* Availability uses the same colors in both plan columns. */
 .feature-comparison td.feature-included{color:#b9d8a9}
 .feature-comparison td.feature-unavailable{color:#d8a294}
+
+/* Shared RIVI wordmark, with equal letter heights. */
+.rivi-brand h1{line-height:0}.rivi-brand .rivi-wordmark{display:block;width:240px;max-width:100%;height:auto;border:0;border-radius:6px}@media(max-width:600px){.rivi-brand .rivi-wordmark{width:210px}}
