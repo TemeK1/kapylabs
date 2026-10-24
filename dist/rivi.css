@@ -21,3 +21,7 @@
 /* Real in-app Bionic Reading preview */
 .bionic-reading-figure{box-sizing:border-box;width:100%;max-width:760px;min-width:0;margin:44px auto 0}.bionic-reading-frame{box-sizing:border-box;width:100%;min-width:0;padding:7px;border:1px solid #4a4e40;border-radius:22px;background:#252a24;box-shadow:0 24px 55px #0004;overflow:hidden}.bionic-reading-screenshot{display:block;width:100%;max-width:100%;height:auto;border-radius:15px}.bionic-reading-figure figcaption{margin:13px 4px 0}
 @media(max-width:600px){.bionic-reading-figure{max-width:100%;margin-top:34px}.bionic-reading-frame{padding:6px;border-radius:18px}.bionic-reading-screenshot{border-radius:12px}}
+
+/* Availability uses the same colors in both plan columns. */
+.feature-comparison td.feature-included{color:#b9d8a9}
+.feature-comparison td.feature-unavailable{color:#d8a294}
